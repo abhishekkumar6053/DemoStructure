@@ -12,7 +12,7 @@ const routes = {
         
     },
     dashboard:{
-        NAME: 'Dashboard',
+        NAME: 'Dashboard Active',
         tabs:{
             NAME: 'DashboardTabs',
             home:{

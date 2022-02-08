@@ -10,11 +10,10 @@ const Stack = createNativeStackNavigator();
 
 const Root=()=> {
   return (
-    <NavigationContainer >
-      <Stack.Navigator headerMode='none'>
-      <Stack.Screen name={routes.onboading.NAME} component={onboarding} />
-        <Stack.Screen name={routes.dashboard.NAME} component={Dashboard} />
-       
+    <NavigationContainer>
+      <Stack.Navigator  screenOptions={{ headerShown: false }}>
+      <Stack.Screen name={routes.onboading.NAME} component={onboarding} /> 
+      <Stack.Screen name={routes.dashboard.NAME} component={Dashboard} />
       </Stack.Navigator>
     </NavigationContainer>
   );

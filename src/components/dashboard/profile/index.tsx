@@ -1,9 +1,10 @@
 import React from 'react';
 import {View,Text} from 'react-native';
+import Header from '../../common/header';
 const Profile=()=>{
     return(
     <View>
-        <Text>hello</Text>
+       <Header title={'Profile'}/>
     </View>
     )}
 export default Profile;

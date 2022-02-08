@@ -8,8 +8,8 @@ const Stack = createStackNavigator();
 const Onboarding=()=>{
     return(
   <Stack.Navigator >
-      <Stack.Screen name={routes.onboading.login.NAME} component={Login}/>
-      <Stack.Screen name={routes.onboading.forgotPassword.NAME} component={forgotPassword}/>
+     <Stack.Screen name={routes.onboading.login.NAME} component={Login}/>
+       <Stack.Screen name={routes.onboading.forgotPassword.NAME} component={forgotPassword}/>
   </Stack.Navigator>
         )}
 export default Onboarding;
